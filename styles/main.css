@@ -1,61 +1,38 @@
 /*----------------------------------
 			GLOBAL STYLES
 ----------------------------------*/
-.begin {
-	color: rgb(172,140,71);
-	font-weight: normal;
-	display: block;
-	margin: 0;
-	
-
-}
 
 body{
-	font-size: 19px;
 	font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;
-	
-	
-	m
 }
 
 .container{
 	background: rgb(15,15,15);
 	background: rgba(15,15,15,0.05);
 	padding: 10px;
-
 }
 
-nav{
-	position: absolute;
-	top: 20px;
-	margin-left: 80px;
-}
-
-nav li{
-	list-style: none;
-	display: inline;
-	margin-right: 15px;
-	color: white;
 
 
-}
+
 
 h1, h2, h3{
 	/*font-family: garamond, "Times New Roman",serif;*/
 	font-weight: normal;
 }
+
 h1{
 	font-size: 3.3684em;
 	line-height: 1.2656em;
 	margin-top: 0.4219em;
 	margin-bottom: 0;
-	
 }
 
 h2{
 	font-size: 1.5em;
 	line-height: 1.2558em;
 	margin: 0.4219em auto 0.4219em auto;
+	padding-top: 20;
 }
 
 h3{
@@ -83,9 +60,7 @@ img{
 
 .featured-info h2{
 	color: rgb(172,140,71);
-	border-bottom: 1px solid rgb(172,140,71);
 	text-transform: uppercase;
-
 }
 
 .featured-info li{
@@ -93,8 +68,6 @@ img{
 	text-transform: uppercase;
 	font-size: 16px;
 	line-height: 25px;
-
-	
 }
 
 .featured-info ul{
@@ -105,76 +78,71 @@ img{
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1em;
+	color: rgb(172,140,71);
 }
 
 
 .cover-image{
 	width: 100%;
-
-	
 }
 
-	.profile{
-		height: 600px;
-	}
+.profile{
+	height: 600px;
+}
 
-	.top-gallery {
-			width: 700px;
-			margin-left: auto;
-			margin-right: auto;
-			padding: 10px;
-		}
+.top-gallery {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
 
-	.top-gallery img {
-		padding: 10px;
-			
-		}
+.top-gallery img {
+	padding: 10px;
+}
 
-	.small-gallery{
-		margin-top: 30px;
-	}
+.small-gallery{
+	margin-top: 30px;
+}
 
-	.small-gallery {
-		text-align: center;
-		
-			
-	}
+.small-gallery {
+	text-align: center;
+}
 
 	
+.thumb1{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto
+}
 
-
-	.thumb1{
-		
-		width: 250px;
-		height: 250px;
-		margin: 0 auto
-
-
-	}
-
-	.thumb2{
-		
-		width: 250px;
-		height: 250px;
-		margin: 0 auto
-
-
-
-
-	}
+.thumb2{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto
+}
 
 /*----------------------------------
 		NAVIGATION STYLES
 ----------------------------------*/
 
-.main-navigation ul{
-	padding-left: 0;
-	
+.main-navigation{
+	position: absolute;
+	top: 20px;
+	margin-left: 80px;
 }
 
 .main-navigation li{
 	list-style: none;
-	text-align: right;
+	display: inline;
+	margin-right: 15px;
+	
+}
+
+.main-navigation a{
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
 }
 
 /*----------------------------------
