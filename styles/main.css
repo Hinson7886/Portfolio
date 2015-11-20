@@ -4,12 +4,15 @@
 
 body{
 	font-family:"Source Sans Pro", Helvetica, Arial, sans-serif;
+	
 }
 
 .container{
 	background: rgb(15,15,15);
 	background: rgba(15,15,15,0.05);
-	padding: 10px;
+	padding: 2% 6% 6% 6%;
+	margin-left: 180px;
+	margin-right: 180px;
 }
 
 
@@ -122,6 +125,12 @@ img{
 	margin: 0 auto
 }
 
+.thumb3{
+	width: 250px;
+	height: 250px;
+	margin: 0 auto
+}
+
 /*----------------------------------
 		NAVIGATION STYLES
 ----------------------------------*/
@@ -143,6 +152,7 @@ img{
 	color: white;
 	text-transform: uppercase;
 	text-decoration: none;
+	font-size: 23px;
 }
 
 /*----------------------------------
