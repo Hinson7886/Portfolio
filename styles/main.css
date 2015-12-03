@@ -184,9 +184,8 @@ span{
 .thumb1{
 	width: 250px;
 	height: 250px;
-	margin: 0 auto
-	transform: perspective(400px) rotateY(4deg);
-	-webkit-transform: perspective(400px) rotateY(4deg);
+	margin: 0 auto;
+	
 }
 
 .thumb1:hover{
@@ -219,7 +218,7 @@ span{
 .thumb2{
 	width: 250px;
 	height: 250px;
-	margin: 0 auto
+	margin: 0 auto;
 	
 }
 
@@ -256,8 +255,7 @@ span{
 	width: 250px;
 	height: 250px;
 	margin: 0 auto
-	transform: perspective(-400px) rotateY(-4deg);
-	-webkit-transform: perspective(400px) rotateY(-4deg);
+	
 }
 
 .thumb3:hover{
